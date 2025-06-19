@@ -16,8 +16,8 @@ module.exports = function(grunt) {
     eslint: {
       tasks: {
         options: {
-          configFile: '.eslint.json',
-          format: 'node_modules/eslint-codeframe-formatter'
+          overrideConfigFile: 'eslint.config.mjs',
+          format: 'node_modules/eslint-codeframe-formatter/index.js'
         },
         src: ['tasks/**/*.js']
       }

@@ -30,7 +30,7 @@
   "homepage": "https://github.com/tandrewnichols/grunt-simple-nyc",
   "dependencies": {
     "lodash": "^4.17.15",
-    "nyc": "^14.1.0",
+    "nyc": "^17.1.0",
     "simple-cli": "^5.0.3"
   },
   "devDependencies": {
@@ -40,7 +40,7 @@
     "grunt-cli": "^1.2.0",
     "grunt-contrib-clean": "^1.1.0",
     "grunt-contrib-watch": "^1.1.0",
-    "grunt-eslint": "^20.1.0",
+    "grunt-eslint": "^25.0.0",
     "grunt-mocha-test": "^0.13.3",
     "grunt-open": "^0.2.4",
     "grunt-shell": "^2.1.0",
